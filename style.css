@@ -15,6 +15,32 @@ body{
     margin:0 auto;
 }
 
+main section{
+    max-width:1140px;
+    margin:74px auto;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+}
+
+.main-title {
+  text-align:center;
+  padding:80px 144px 48px 144px;
+}
+
+.main-title h1{
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+}
+
+.main-title p{
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+opacity: 0.7;
+margin-top:24px;
+}
+
 /* ------------------------Header-section-------------------------- */
 .header-container .nav-bar{
     display:flex;
@@ -86,6 +112,69 @@ body{
     background: rgb(13, 19, 33);
     text-decoration:none;
 }
+
+/* ------------------------feature-section------------------------- */
+.feature-section .feature-container{
+    padding:0 145px 32px 145px;
+}
+
+.feature-section .feature-container .single-feature{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background-color:#fff;
+    padding:48px;
+    border-radius:16px;
+    margin-bottom:32px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+}
+
+.feature-section .feature-container .middle-feature{
+    background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+}
+
+.feature-container .single-feature .feature-description{
+    margin-right:53px;
+}
+
+.feature-container .single-feature .middle-des{
+    margin-right:20px;
+    margin-left:20px;
+}
+
+.feature-container .single-feature .feature-description h3{
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+}
+
+.feature-container .single-feature .feature-description p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    opacity:0.7;
+    margin:16px 0 32px 0;
+}
+
+
+.feature-container .single-feature .feature-description button{
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    padding:12px 20px;
+    background-color:#fff;
+}
+
+.feature-container .single-feature .feature-description button a{
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    text-decoration:none;
+}
+
+
+
 
 
 
