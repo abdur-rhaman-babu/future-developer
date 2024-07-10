@@ -269,6 +269,75 @@ margin-top:24px;
     text-decoration-line: underline;
 }
 
+/* ----------------------support-section------------------ */
+.support-section{
+    position:relative;
+}
+
+.support-section .support-bg img{
+    max-width:1140px;
+    width:100%;
+    height:314px;
+    border-radius:16px;
+}
+
+.support-section .support-container{
+    position:absolute;
+    top:0;
+    right:205px;
+    margin:64px 48px;
+    text-align:center;
+}
+
+.support-section .support-container h1{
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+}
+
+.support-section .support-container p{
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin:16px 0 24px 0;
+    opacity:0.7;
+}
+
+.support-section .support-container input[type=text]{
+    padding: 20px 20px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    width:548px;
+    outline:none;
+}
+
+.support-section .support-container input[type=text]::placeholder{
+    color: rgba(13, 19, 33, 0.4);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+}
+
+
+
+.support-section .support-container input[type=submit]{
+    padding: 15px 20px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    cursor: pointer;
+}
+
+
+
 
 
 
